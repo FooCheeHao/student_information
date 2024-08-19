@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Student Information System
 // Function declarations for better code organization
 bool adminLogin();
 void studentLogin();
