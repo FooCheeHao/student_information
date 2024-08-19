@@ -375,7 +375,7 @@ void adminMenu(sqlite3* db) {
                 cout << "The password entered does not match our records." << endl;
             }
         } else {
-            cout << "Failed to retrieve the email address. Please try again." << endl;
+            cout << "Failed to retrieve the email address, Please try again." << endl;
             cout << "SQL error: " << sqlite3_errmsg(db) << endl;
             sqlite3_finalize(stmt);
         }
