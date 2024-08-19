@@ -1,4 +1,4 @@
-# Project Intro
+# Project Info
 
 This is a student information system using C++ to coding, database from DB Browser (SQLite) to store data.
 
