@@ -322,7 +322,7 @@ void adminMenu(sqlite3* db) {
             case 6:
     cout << "\n###### Change Password ######" << endl;
     confirm;
-    cout << "Are you sure you want to change your password? (y/n): ";
+    cout << "Are you sure you want to change student password? (y/n): ";
     cin >> confirm;
 
     if (confirm == 'y' || confirm == 'Y') {
@@ -330,9 +330,9 @@ void adminMenu(sqlite3* db) {
 
         cout << "Enter student id to locate: ";
         cin >> student_ID;
-        cout << "Enter your old password: ";
+        cout << "Enter student old password: ";
         cin >> oldPassword;
-        cout << "Enter your new password: ";
+        cout << "Enter student new password: ";
         cin >> newPassword;
 
         // Query to check if the old email address matches the one in the database
