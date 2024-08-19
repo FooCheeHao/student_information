@@ -1,2 +1,2 @@
-main.cpp = main codding
+main.cpp = main codding;
 example.db = student database
